@@ -1,0 +1,9 @@
+INTEGER :: x
+x = 10
+PRINT *, "Value of x:", x
+IF (x > 5) THEN
+    PRINT *, "x is greater than 5"
+END IF
+DO i = 1, 3
+    PRINT *, "Loop iteration", i
+END DO
